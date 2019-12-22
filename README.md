@@ -29,7 +29,7 @@ You'll need to install
 
 	
 # Test execution report
-	Extent report will be available @ "qa-test-hf_1.3/target".
+	Extent report will be available @ "hellofresh-task/target".
 
 # Execution Logs	
-	Logs will be available @ "qa-test-hf_1.3/log"
+	Logs will be available @ "hellofresh-task/log"
