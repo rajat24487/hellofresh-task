@@ -1,0 +1,195 @@
+2019-12-22 17:18:45 INFO  TestListener:30 - I am in onStart method Web Automation test
+2019-12-22 17:18:45 INFO  TestListener:30 - I am in onStart method Room Booking API test
+2019-12-22 17:18:45 INFO  WebDriverSetup:31 - returning driver for browser:chrome
+2019-12-22 17:18:45 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:18:45 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:18:45 INFO  CommonFunctions:60 - Value fetched for key=>apiData.protocol is :https
+2019-12-22 17:18:45 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:18:45 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:18:45 INFO  CommonFunctions:60 - Value fetched for key=>apiData.server is :automationintesting.online
+2019-12-22 17:18:46 INFO  TestListener:43 - I am in onTestStart method getBookings start
+2019-12-22 17:18:46 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:18:46 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:18:46 INFO  CommonFunctions:60 - Value fetched for key=>apiData.endPoint is :booking/
+2019-12-22 17:18:47 INFO  TestListener:48 - I am in onTestSuccess method getBookings succeed
+2019-12-22 17:18:47 INFO  TestListener:43 - I am in onTestStart method getBooking start
+2019-12-22 17:18:47 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:18:47 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:18:47 INFO  CommonFunctions:60 - Value fetched for key=>apiData.endPoint is :booking/
+2019-12-22 17:18:47 INFO  TestListener:48 - I am in onTestSuccess method getBooking succeed
+2019-12-22 17:18:47 INFO  TestListener:43 - I am in onTestStart method createBookings start
+2019-12-22 17:18:47 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:18:47 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:18:47 INFO  CommonFunctions:60 - Value fetched for key=>apiData.newBookingData is :{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}
+2019-12-22 17:18:47 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:18:47 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:18:47 INFO  CommonFunctions:60 - Value fetched for key=>apiData.endPoint is :booking/
+2019-12-22 17:18:47 INFO  TestListener:48 - I am in onTestSuccess method createBookings succeed
+2019-12-22 17:18:47 INFO  TestListener:36 - I am in onFinish method Room Booking API test
+2019-12-22 17:19:04 INFO  WebDriverSetup:54 - returning chrome driver...
+2019-12-22 17:19:04 INFO  TestListener:43 - I am in onTestStart method signInTest start
+2019-12-22 17:19:04 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:04 INFO  HomePage:26 - In HomePage class contructor
+2019-12-22 17:19:04 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:05 INFO  HomePage:45 - Sign In button clicked on HomePage.
+2019-12-22 17:19:05 INFO  HomePage:46 - Waiting for Login and Sign Page to Load
+2019-12-22 17:19:05 INFO  LoginPage:59 - Waiting for login button to be visible
+2019-12-22 17:19:05 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: SubmitLogin] element to be visible
+2019-12-22 17:19:06 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: SubmitLogin] is visible.
+2019-12-22 17:19:06 INFO  HomePage:48 - SignIn/Login Page loaded
+2019-12-22 17:19:06 INFO  HomePage:49 - Returning Login/SignIn Page object.
+2019-12-22 17:19:06 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:06 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:06 INFO  CommonFunctions:60 - Value fetched for key=>New_User_Details.email is :hf_challenge_@hf.com
+2019-12-22 17:19:06 INFO  LoginPage:77 - Returning random email as hf_challenge_1577031546045@hf.com
+2019-12-22 17:19:06 INFO  LoginPage:88 - Entering user email ashf_challenge_1577031546045@hf.com
+2019-12-22 17:19:06 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:06 INFO  SignInPage:27 - In SignInPage class contructor
+2019-12-22 17:19:06 INFO  LoginPage:103 - Submit Email button clicked.
+2019-12-22 17:19:06 INFO  SignInPage:101 - Waiting for SignIn Page to load
+2019-12-22 17:19:07 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: id_gender2] element to be visible
+2019-12-22 17:19:07 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: id_gender2] is visible.
+2019-12-22 17:19:07 INFO  LoginPage:105 - Returning SignIn page for new user
+2019-12-22 17:19:07 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:07 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:07 INFO  CommonFunctions:60 - Value fetched for key=>New_User_Details.title is :Mrs
+2019-12-22 17:19:07 INFO  SignInPage:170 - Selecting title as Mrs
+2019-12-22 17:19:07 INFO  SignInPage:120 - Selecting Mrs.
+2019-12-22 17:19:07 INFO  CommonFunctions:115 - Returning aplha number asYWXTEYSS
+2019-12-22 17:19:07 INFO  SignInPage:174 - Entering First Name as YWXTEYSS
+2019-12-22 17:19:07 INFO  CommonFunctions:115 - Returning aplha number asAXRPMPMUE
+2019-12-22 17:19:07 INFO  SignInPage:178 - Entering last Name as AXRPMPMUE
+2019-12-22 17:19:07 INFO  CommonFunctions:79 - Returning aplha number asXBLQLN
+2019-12-22 17:19:07 INFO  SignInPage:184 - Entering password as XBLQLN
+2019-12-22 17:19:08 INFO  SignInPage:187 - Selecting Random date of Birth
+2019-12-22 17:19:08 INFO  CommonFunctions:129 - Returning random string from set of string as 6  
+2019-12-22 17:19:08 INFO  SignInPage:136 - Selecting birth day:6  
+2019-12-22 17:19:14 INFO  CommonFunctions:129 - Returning random string from set of string as December 
+2019-12-22 17:19:14 INFO  SignInPage:141 - Selecting birth month:December 
+2019-12-22 17:19:21 INFO  CommonFunctions:129 - Returning random string from set of string as 1942  
+2019-12-22 17:19:21 INFO  SignInPage:146 - Selecting birth year:1942  
+2019-12-22 17:19:26 INFO  CommonFunctions:115 - Returning aplha number asBAXNIWATFQ
+2019-12-22 17:19:26 INFO  SignInPage:191 - Entering company name asBAXNIWATFQ
+2019-12-22 17:19:26 INFO  CommonFunctions:115 - Returning aplha number asVQZHCPYLVS
+2019-12-22 17:19:26 INFO  CommonFunctions:79 - Returning aplha number as3E9N
+2019-12-22 17:19:26 INFO  SignInPage:195 - Entering address line 1 asVQZHCPYLVS , 3E9N
+2019-12-22 17:19:26 INFO  CommonFunctions:115 - Returning aplha number asNIRCPEH
+2019-12-22 17:19:26 INFO  SignInPage:199 - Entering address line 2 asNIRCPEH
+2019-12-22 17:19:26 INFO  CommonFunctions:115 - Returning aplha number asLVSJD
+2019-12-22 17:19:26 INFO  SignInPage:203 - Entering city asLVSJD
+2019-12-22 17:19:28 INFO  CommonFunctions:129 - Returning random string from set of string as Connecticut
+2019-12-22 17:19:28 INFO  SignInPage:158 - State selected is Connecticut
+2019-12-22 17:19:28 INFO  CommonFunctions:97 - Returning aplha number as38433
+2019-12-22 17:19:28 INFO  SignInPage:209 - Entering postal as38433
+2019-12-22 17:19:28 INFO  CommonFunctions:79 - Returning aplha number asWYKXSDGM59
+2019-12-22 17:19:28 INFO  SignInPage:213 - Entering other info asWYKXSDGM59
+2019-12-22 17:19:28 INFO  CommonFunctions:97 - Returning aplha number as9268119479
+2019-12-22 17:19:28 INFO  SignInPage:217 - Entering home phone as9268119479
+2019-12-22 17:19:28 INFO  CommonFunctions:97 - Returning aplha number as4736476821
+2019-12-22 17:19:28 INFO  SignInPage:221 - Entering mobile phone as4736476821
+2019-12-22 17:19:28 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:28 INFO  MyAccountPage:27 - In MyAccountPage class contructor
+2019-12-22 17:19:30 INFO  SignInPage:238 - Register new user button clicked
+2019-12-22 17:19:30 INFO  MyAccountPage:66 - Waiting for Account Page to load
+2019-12-22 17:19:30 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> class name: logout] element to be visible
+2019-12-22 17:19:30 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> class name: logout] is visible.
+2019-12-22 17:19:30 INFO  MyAccountPage:81 - Returning account name MY ACCOUNT
+2019-12-22 17:19:30 INFO  MyAccountPage:92 - Returning account name YWXTEYSS AXRPMPMUE
+2019-12-22 17:19:30 INFO  MyAccountPage:92 - Returning account name YWXTEYSS AXRPMPMUE
+2019-12-22 17:19:30 INFO  MyAccountPage:103 - Welcome Text isWelcome to your account. Here you can manage all of your personal information and orders.
+2019-12-22 17:19:30 INFO  MyAccountPage:130 - Click SignOut button.
+2019-12-22 17:19:32 INFO  TestListener:48 - I am in onTestSuccess method signInTest succeed
+2019-12-22 17:19:32 INFO  TestListener:43 - I am in onTestStart method logInTest start
+2019-12-22 17:19:32 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:33 INFO  HomePage:45 - Sign In button clicked on HomePage.
+2019-12-22 17:19:33 INFO  HomePage:46 - Waiting for Login and Sign Page to Load
+2019-12-22 17:19:33 INFO  LoginPage:59 - Waiting for login button to be visible
+2019-12-22 17:19:33 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: SubmitLogin] element to be visible
+2019-12-22 17:19:33 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: SubmitLogin] is visible.
+2019-12-22 17:19:33 INFO  HomePage:48 - SignIn/Login Page loaded
+2019-12-22 17:19:33 INFO  HomePage:49 - Returning Login/SignIn Page object.
+2019-12-22 17:19:33 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:33 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:33 INFO  CommonFunctions:60 - Value fetched for key=>Existing_user.username is :hf_challenge_123456@hf123456.com
+2019-12-22 17:19:33 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:33 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:33 INFO  CommonFunctions:60 - Value fetched for key=>Existing_user.password is :12345678
+2019-12-22 17:19:33 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:33 INFO  MyAccountPage:27 - In MyAccountPage class contructor
+2019-12-22 17:19:33 INFO  LoginPage:123 - Entering username hf_challenge_123456@hf123456.com in email field
+2019-12-22 17:19:34 INFO  LoginPage:125 - Entering password 12345678 in password field
+2019-12-22 17:19:35 INFO  LoginPage:128 - Clicked log in button after entering username and password.
+2019-12-22 17:19:35 INFO  MyAccountPage:81 - Returning account name MY ACCOUNT
+2019-12-22 17:19:35 INFO  MyAccountPage:92 - Returning account name Joe Black
+2019-12-22 17:19:35 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:35 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:35 INFO  CommonFunctions:60 - Value fetched for key=>Existing_user.fullname is :Joe Black
+2019-12-22 17:19:35 INFO  MyAccountPage:92 - Returning account name Joe Black
+2019-12-22 17:19:35 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:35 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:35 INFO  CommonFunctions:60 - Value fetched for key=>Existing_user.fullname is :Joe Black
+2019-12-22 17:19:35 INFO  MyAccountPage:103 - Welcome Text isWelcome to your account. Here you can manage all of your personal information and orders.
+2019-12-22 17:19:35 INFO  MyAccountPage:130 - Click SignOut button.
+2019-12-22 17:19:37 INFO  TestListener:48 - I am in onTestSuccess method logInTest succeed
+2019-12-22 17:19:37 INFO  TestListener:43 - I am in onTestStart method checkoutTest start
+2019-12-22 17:19:37 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:38 INFO  HomePage:45 - Sign In button clicked on HomePage.
+2019-12-22 17:19:38 INFO  HomePage:46 - Waiting for Login and Sign Page to Load
+2019-12-22 17:19:38 INFO  LoginPage:59 - Waiting for login button to be visible
+2019-12-22 17:19:38 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: SubmitLogin] element to be visible
+2019-12-22 17:19:38 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: SubmitLogin] is visible.
+2019-12-22 17:19:38 INFO  HomePage:48 - SignIn/Login Page loaded
+2019-12-22 17:19:38 INFO  HomePage:49 - Returning Login/SignIn Page object.
+2019-12-22 17:19:38 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:38 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:38 INFO  CommonFunctions:60 - Value fetched for key=>Existing_user.username is :hf_challenge_123456@hf123456.com
+2019-12-22 17:19:38 INFO  CommonFunctions:49 - Json Object is {"apiData":{"server":"automationintesting.online","endPoint":"booking\/","protocol":"https","newBookingData":{"firstname":"testuser","bookingdates":{"checkin":"2019-12-23","checkout":"2019-12-27"},"phone":"12345688234422","depositpaid":true,"bookingid":4,"email":"testabc@hf.com","roomid":1,"lastname":"hellofresh"}},"New_User_Details":{"lastName":"Random","country":"Random","city":"Random","postalCode":"Random","homePhone":"Random","Address2":"Random","Address1":"Random","title":"Mrs","firstName":"Random","password":"Random","mobilePhone":"Random","DOB":"Random","company":"Random","state":"Random","email":"hf_challenge_@hf.com","info":"Random"},"Existing_user":{"password":"12345678","fullname":"Joe Black","username":"hf_challenge_123456@hf123456.com"}}
+2019-12-22 17:19:38 INFO  CommonFunctions:58 - Json Object after iteration 0
+2019-12-22 17:19:38 INFO  CommonFunctions:60 - Value fetched for key=>Existing_user.password is :12345678
+2019-12-22 17:19:38 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:38 INFO  MyAccountPage:27 - In MyAccountPage class contructor
+2019-12-22 17:19:38 INFO  LoginPage:123 - Entering username hf_challenge_123456@hf123456.com in email field
+2019-12-22 17:19:38 INFO  LoginPage:125 - Entering password 12345678 in password field
+2019-12-22 17:19:40 INFO  LoginPage:128 - Clicked log in button after entering username and password.
+2019-12-22 17:19:40 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:40 INFO  OrderPage:27 - In OrderPage class contructor
+2019-12-22 17:19:40 INFO  MyAccountPage:144 - Click Women Tab.
+2019-12-22 17:19:42 INFO  MyAccountPage:150 - Click Faded Shot Sleeve T-Shirt item
+2019-12-22 17:19:42 INFO  BasePage:58 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //a[@title='Faded Short Sleeve T-shirts']/ancestor::li] element to be visible
+2019-12-22 17:19:42 INFO  BasePage:60 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //a[@title='Faded Short Sleeve T-shirts']/ancestor::li] is visible.
+2019-12-22 17:19:44 INFO  MyAccountPage:156 - Click Add to Cart button
+2019-12-22 17:19:46 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> name: Submit] element to be visible
+2019-12-22 17:19:46 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> name: Submit] is visible.
+2019-12-22 17:19:46 INFO  MyAccountPage:173 - Click Proceed to Checkout button
+2019-12-22 17:19:46 INFO  BasePage:58 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[@id='layer_cart']//a[@class and @title='Proceed to checkout']] element to be visible
+2019-12-22 17:19:47 INFO  BasePage:60 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[@id='layer_cart']//a[@class and @title='Proceed to checkout']] is visible.
+2019-12-22 17:19:49 INFO  MyAccountPage:177 - Added Faded Short Sleeve Tshirt Item in cart
+2019-12-22 17:19:49 INFO  OrderPage:60 - Waiting for Order Page to load
+2019-12-22 17:19:49 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[contains(@class,'cart_navigation')]/a[@title='Proceed to checkout']] element to be visible
+2019-12-22 17:19:49 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[contains(@class,'cart_navigation')]/a[@title='Proceed to checkout']] is visible.
+2019-12-22 17:19:49 INFO  MyAccountPage:179 - Returning Order Page reference.
+2019-12-22 17:19:49 INFO  BasePage:30 - Initiated webelement in Base class contructor for class: com.hellofresh.challenge.pageobjects.BasePage
+2019-12-22 17:19:49 INFO  OrderConfirmPage:26 - In OrderConfirmPage class contructor
+2019-12-22 17:19:49 INFO  OrderPage:83 - click on proceed button
+2019-12-22 17:19:49 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[contains(@class,'cart_navigation')]/a[@title='Proceed to checkout']] element to be visible
+2019-12-22 17:19:49 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[contains(@class,'cart_navigation')]/a[@title='Proceed to checkout']] is visible.
+2019-12-22 17:19:50 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> name: processAddress] element to be visible
+2019-12-22 17:19:50 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> name: processAddress] is visible.
+2019-12-22 17:19:51 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: uniform-cgv] element to be visible
+2019-12-22 17:19:51 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> id: uniform-cgv] is visible.
+2019-12-22 17:19:51 INFO  OrderPage:89 - click on T&C checkbox
+2019-12-22 17:19:52 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> name: processCarrier] element to be visible
+2019-12-22 17:19:52 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> name: processCarrier] is visible.
+2019-12-22 17:19:53 INFO  OrderPage:93 - click on wire payment link
+2019-12-22 17:19:53 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> class name: bankwire] element to be visible
+2019-12-22 17:19:53 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> class name: bankwire] is visible.
+2019-12-22 17:19:53 INFO  OrderPage:96 - Confirm order by clicking on confirm button
+2019-12-22 17:19:53 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[@id='cart_navigation']/button] element to be visible
+2019-12-22 17:19:53 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> xpath: //*[@id='cart_navigation']/button] is visible.
+2019-12-22 17:19:58 INFO  OrderConfirmPage:50 - Waiting for Order Confirmation to load
+2019-12-22 17:19:58 INFO  BasePage:41 - wait for [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> css selector: h1] element to be visible
+2019-12-22 17:19:58 INFO  BasePage:43 - Element [[ChromeDriver: chrome on WINDOWS (83111dc1e0b2f22d3a43dfa465523024)] -> css selector: h1] is visible.
+2019-12-22 17:19:58 INFO  OrderConfirmPage:74 - Returning account name ORDER CONFIRMATION
+2019-12-22 17:19:58 INFO  TestListener:48 - I am in onTestSuccess method checkoutTest succeed
+2019-12-22 17:19:58 INFO  BaseUiTest:55 - Closing WebDriver
+2019-12-22 17:19:59 INFO  TestListener:36 - I am in onFinish method Web Automation test

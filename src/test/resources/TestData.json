@@ -1,0 +1,43 @@
+{
+	"Existing_user": {
+		"username": "hf_challenge_123456@hf123456.com",
+		"password": "12345678",
+		"fullname": "Joe Black"
+	},
+	"New_User_Details": {
+		"title": "Mrs",
+		"firstName": "Random",
+		"lastName": "Random",
+		"email": "hf_challenge_@hf.com",
+		"password": "Random",
+		"DOB": "Random",
+		"company": "Random",
+		"Address1": "Random",
+		"Address2": "Random",
+		"city": "Random",
+		"state": "Random",
+		"postalCode": "Random",
+		"country": "Random",
+		"info": "Random",
+		"homePhone": "Random",
+		"mobilePhone": "Random"
+	},
+	"apiData": {
+		"protocol": "https",
+		"server": "automationintesting.online",
+		"endPoint": "booking/",
+		"newBookingData": {
+			"bookingdates": {
+				"checkin": "2019-12-23",
+				"checkout": "2019-12-27"
+			},
+			"bookingid": 4,
+			"depositpaid": true,
+			"email": "testabc@hf.com",
+			"firstname": "testuser",
+			"lastname": "hellofresh",
+			"phone": "12345688234422",
+			"roomid": 1
+		}
+	}
+}

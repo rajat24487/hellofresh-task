@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QA Automation Challenge HelloFresh Tests"
+	thread-count="2" parallel="tests">
+	<listeners>
+		<listener
+			class-name="com.hellofresh.challenge.utility.TestListener" />
+	</listeners>
+	<test name="Web Automation test">
+		<parameter name="browserType" value="chrome" />
+		<parameter name="url"
+			value="http://automationpractice.com/index.php" />
+		<classes>
+			<class name="com.hellofresh.challenge.tests.WebTest" />
+		</classes>
+	</test>
+	<test name="Room Booking API test">
+		<classes>
+			<class name="com.hellofresh.challenge.tests.ApiTest" />
+		</classes>
+	</test>
+
+</suite>
